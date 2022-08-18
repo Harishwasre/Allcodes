@@ -31,10 +31,11 @@ public class Concat {
 //			System.out.print(s4[i]);
 //		}
 		String s=new String("harish");
-		String s1="harish";
+		String s1="harish subhas wasre";
 		String s2="harish";
 		System.out.println(s==s1);
 		System.out.println(s1.subSequence(1, 3));
+		System.out.println("   ------"+s1.substring(0,5));
 
 	}
 

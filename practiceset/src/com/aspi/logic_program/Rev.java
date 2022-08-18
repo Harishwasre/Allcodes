@@ -4,21 +4,21 @@ public class Rev {
 
 	public static void main(String[] args)
 	{
-		String ha="my name";
+		String ha="iam harish";
 		String[] har = ha.split(" ");
-		String rev = " ";
+		
+		String revword="";
 		for( String a:har) 
 		{
-			String revword="";
+			String rev = "";
 			for(int i=a.length()-1;i>=0;i--) 
 			{
-			 revword=revword+a.charAt(i);
-				}
-			rev=rev+revword+" ";
-			System.out.println(rev);
+			 rev= rev+ a.charAt(i);
+		    }
+			revword=revword+rev+" ";
 		}
-		
-
+		System.out.println(revword);
 	}
-
+	
 }
+
